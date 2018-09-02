@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/weapons/weaponList",
+    "pages/weapons/greatSword/greatSword",
+    "pages/weapons/longSword/longSword",
+
+    "pages/armor/armorList",
+
+    "pages/items/itemList",
+
+    "pages/set/set",
+
+    "pages/guide/guide",
+
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "怪物猎人小伙伴",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/weapons/weaponList",
+        "iconPath": "images/common/weapon.png",
+        "selectedIconPath": "images/common/weapon_hl.png",
+        "text": "武器"
+      },
+      {
+        "pagePath": "pages/armor/armorList",
+        "iconPath": "images/common/armor.png",
+        "selectedIconPath": "images/common/armor_hl.png",
+        "text": "防具"
+      },
+      {
+        "pagePath": "pages/items/itemList",
+        "iconPath": "images/common/item.png",
+        "selectedIconPath": "images/common/item_hl.png",
+        "text": "物品"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "iconPath": "images/common/set.png",
+        "selectedIconPath": "images/common/set_hl.png",
+        "text": "配装"
+      },
+      {
+        "pagePath": "pages/guide/guide",
+        "iconPath": "images/common/guide.png",
+        "selectedIconPath": "images/common/guide_hl.png",
+        "text": "攻略"
+      }
+    ]
+  }
+}

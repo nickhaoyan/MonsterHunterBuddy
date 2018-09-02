@@ -1,0 +1,6 @@
+<!--pages/weapons/weaponList.wxml-->
+<text>pages/weapons/weaponList.wxml</text>
+
+<navigator url='greatSword/greatSword'>
+  <image src='../../images/weapons/greatSword.png' mode='left'></image>  大剑
+</navigator>
